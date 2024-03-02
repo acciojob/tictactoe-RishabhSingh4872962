@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#tictactoe{
+	height:50px;
+	width:50px;
+	display:grid;
+	background-color:black;
+	 grid-template-columns: auto auto auto;
+	gap:0px 0px;
+	color:black; 
+}
+.cell{
+	background-color:#ffc0cb;
+	font-size:10px;
+}
+.
